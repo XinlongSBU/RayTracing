@@ -1,6 +1,8 @@
 import envexamples
 from raytracing import *
 
+#Calculate the invariant at any plane? 
+
 path = ImagingPath() # second lens is smaller than the first one
 path.append(System4f(f1=30, diameter1=20, f2=50, diameter2=10))
 path.append(Aperture(diameter=10, label='Camera'))
